@@ -1,8 +1,10 @@
-#LMA: An Open-Source Local Audio Sample Manager
+# LMA: An Open-Source Local Audio Sample Manager
 
 Welcome. This document contains three part in sequence: Chinese LMA Quick Start, English LMA Quick Start and information for developers.
 
 ![](/images/LMA_promo.png)
+
+---
 
 ## LMA使用指南
 
