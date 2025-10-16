@@ -23,7 +23,7 @@ Welcome. This document contains three part in sequence: Chinese LMA Quick Start,
 - 可以选择搜索loop或者one shot
 - 可以搜索指定范围BPM的采样
   - 如果前后输入为同一个数字，则转而搜索精准BPM
-  - 
+
 ### 标记
   - 右键采样出现选项 “Add to collection”
     - 选中后，列表中采样前会有星星标记。
