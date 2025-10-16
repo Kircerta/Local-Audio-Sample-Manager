@@ -1,4 +1,10 @@
-# LMA使用指南
+#LMA: An Open-Source Local Audio Sample Manager
+
+Welcome. This document contains three part in sequence: Chinese LMA Quick Start, English LMA Quick Start and information for developers.
+
+![](/images/LMA_promo.png)
+
+## LMA使用指南
 
 感谢你使用LMA（暂定名）本地音频采样管理器。软件皆在帮助音乐创作者们更快的检索和标记本地的音频采样。
 
@@ -22,17 +28,16 @@
     - 标记采样并不会改变文件本身的名称，请放心。
 - 采样的分类与索引基于文件本身的命名
 
+---
 
 # LMA Quick Start Guide
 
 Thank you for using LMA (Working Title) Local Audio Sample Manager. I designed this light tool to help music creators retrieve and tag their local audio samples faster.
 
-
-
 ### Initialization
 
-* Select **Select Folder** and choose the local sample folder you wish to scan.
-* Select **Rescan** to perform a fresh scan of the samples within the folder.
+* Press "Select Folder" and choose the local sample folder you wish to scan.
+* Press "Rescan" to perform a fresh scan of the samples within the folder.
 
 # Serching Samples
 
