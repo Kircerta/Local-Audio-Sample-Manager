@@ -1,10 +1,14 @@
 # LMA: An Open-Source Local Audio Sample Manager
 
 Welcome. To download user executable file, please visit this [link](https://drive.google.com/drive/folders/1wAJiHze-FrULG5ajX_6uIGnapykya_nW?usp=drive_link).
+
 Until October 16th 2025, only MacOS application is available. This is because my new Windows computer is on it's way and I can't pack things up in my current "All-Apple" set up. Thank you for your patience! Exe file will be updated to the same link soon!
 
 欢迎。若是想直接使用LMA本地音频管理软件，请点击 [这里](https://drive.google.com/drive/folders/1wAJiHze-FrULG5ajX_6uIGnapykya_nW?usp=drive_link)下载。
+
 截止至2025年10月16日，我仅打包了MacOS的版本在下载链接中。这是因为我的Windows电脑还在路上。Windows应用程序会在我拿到电脑后打包。感谢等待。
+
+---
 
 This document contains three part in sequence: Chinese LMA Quick Start, English LMA Quick Start and information for developers.
 
