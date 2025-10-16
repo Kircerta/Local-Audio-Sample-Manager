@@ -63,7 +63,7 @@
  [],
  False,
  False,
- 1760576267,
+ 1760581276,
  [('runw',
    '/Users/kircerta/PycharmProjects/LocalAudioSampleManager/.venv/lib/python3.13/site-packages/PyInstaller/bootloader/Darwin-64bit/runw',
    'EXECUTABLE')],

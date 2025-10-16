@@ -68,12 +68,16 @@ class DraggableTableWidget(QTableWidget):
         self.setFont(QFont("Arial", 10))
 
     def startDrag(self, supportedActions):
-        selected_items = self.selectedItems()
-        if not selected_items:
+        selected_rows = self.selectionModel().selectedRows()
+        if not selected_rows:
             return
 
-        item = selected_items[0]
-        filepath = item.data(Qt.UserRole)
+        row = selected_rows[0].row()
+        filename_item = self.item(row, 1)
+        if not filename_item:
+            return
+
+        filepath = filename_item.data(Qt.UserRole)
         if not filepath: return
 
         temp_dir = tempfile.gettempdir()
