@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['Sample Manager GUI.py'],
+    ['LMA_GUI.py'],
     pathex=[],
     binaries=[('/Users/kircerta/PycharmProjects/LocalAudioSampleManager/.venv/lib/python3.13/site-packages/pygame/_sdl2/*.so', 'pygame/_sdl2'), ('/opt/homebrew/opt/libsndfile/lib/libsndfile.dylib', '.')],
     datas=[],

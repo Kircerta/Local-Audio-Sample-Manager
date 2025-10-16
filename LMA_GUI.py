@@ -16,13 +16,13 @@ from sample_parser import scan_folder, search_samples
 class InfoDialog(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle("About Local Sample Manager")
+        self.setWindowTitle("About LMA")
         self.setFixedSize(400, 450) # Size is currently fixed.
 
         layout = QVBoxLayout()
 
         message_text = """
-        <h3>Local Sample Manager v0.0.1</h3>
+        <h3>LMA - Local Sample Manager v0.0.1</h3>
         
         <p> Thank you for using this sample manager tool!</p>
         <p>I aim to help musicians sort and tag their local samples fast.</p>
@@ -58,7 +58,7 @@ class DraggableTableWidget(QTableWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
 
-        APP_NAME = "Local Sample Manager"
+        APP_NAME = "LMA"
         APP_VERSION = "v0.0.1"
         self.setWindowTitle(f"{APP_NAME} {APP_VERSION}") #Last Updated: 2025.OCT.15
 
@@ -161,7 +161,7 @@ class SampleManagerApp(QWidget):
         # --- Form Filters & Search Button ---
         bottom_search_layout = QHBoxLayout()
         self.form_filter_group = QButtonGroup(self)
-        for text in ["All", "Loop", "One-shot", "Fill", "Saved"]:
+        for text in ["All", "Loop", "One-shot", "Fill", "Favorite"]:
             btn = QRadioButton(text)
             if text == "All": btn.setChecked(True)
             self.form_filter_group.addButton(btn)

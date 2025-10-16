@@ -51,9 +51,8 @@
   ('pyi_rth_pkgres',
    '/Users/kircerta/PycharmProjects/LocalAudioSampleManager/.venv/lib/python3.13/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgres.py',
    'PYSOURCE'),
-  ('Sample Manager GUI',
-   '/Users/kircerta/PycharmProjects/LocalAudioSampleManager/Sample Manager '
-   'GUI.py',
+  ('LMA_GUI',
+   '/Users/kircerta/PycharmProjects/LocalAudioSampleManager/LMA_GUI.py',
    'PYSOURCE')],
  'Python',
  True,
