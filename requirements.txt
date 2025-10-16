@@ -1,0 +1,8 @@
+cffi==2.0.0
+numpy==2.3.4
+pycparser==2.23
+pygame==2.6.1
+PyQt5==5.15.11
+PyQt5-Qt5==5.15.17
+PyQt5_sip==12.17.1
+soundfile==0.13.1
